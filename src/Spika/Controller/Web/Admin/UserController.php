@@ -36,7 +36,7 @@ class UserController extends SpikaWebBaseController
     var $userGenderList = array(
         ' ' => '',
         'male' => 'male',
-        'felame' => 'felame',
+        'female' => 'female',
     );
     
     public function connect(Application $app)
